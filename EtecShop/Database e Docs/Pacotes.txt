@@ -1,0 +1,15 @@
+dotnet new mvc
+
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.2
+
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.0.8
+
+dotnet-aspnet-codegenerator view Details Empty -udl -outDir "Views/Home"
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.8
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.8
+
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.8
+
+dotnet-aspnet-codegenerator controller -name XXXXXXXController -m XXXXXXX -dc XXXXXXXX --relativeFolderPath Controllers -l "~/Views/Shared/_LayoutAdmin.cshtml"
