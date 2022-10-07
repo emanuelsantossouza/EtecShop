@@ -1,21 +1,28 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EtecShop.Models;
+using EtecShop.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace EtecShop.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly ApplicationDbContext _context;
+    public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
     {
         _logger = logger;
+        _context = context;
     }
+
 
     public IActionResult Index()
     {
-        return View();
+        var products = _context.Products
+        .Include(p => p.Brand).Include(p => p.Category).ToList();
+        return View(products);
     }
 
     public IActionResult Privacy()

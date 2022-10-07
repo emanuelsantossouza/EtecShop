@@ -1,7 +1,15 @@
+using EtecShop.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+string connection = builder.Configuration.GetConnectionString("Connection");
+builder.Services.AddDbContext<ApplicationDbContext>(
+    options => options.UseMySql(connection, ServerVersion.AutoDetect(connection))
+);
 
 var app = builder.Build();
 

@@ -1,8 +1,28 @@
-﻿@{
+﻿@model IEnumerable<EtecShop.Models.Product>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Seja Bem Vindo a Etec Shop</h1>
+    <p>Os Melhores Produtos para os Melhores Clientes!!</p>
+</div>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="@product.Image" class="card-img-top" alt="@product">
+                <div class="card-body">
+                    <h6 class="card-title">@product.Name</h6>
+                    <p class="card-text">@product.Category.Name - @product.Brand.Name</p>
+                    <h5 class="card-text">R$ @product.Price</h5>
+                    <a href="#" class="btn btn-danger">Compre</a>
+                </div>
+            </div>
+        </div>
+    }
+
+
 </div>
