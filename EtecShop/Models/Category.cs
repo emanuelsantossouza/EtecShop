@@ -13,5 +13,5 @@ namespace EtecShop.Models;
         [Display(Name = "Nome da Categoria")] // propt = é o que aparece dentro do campo que quando vc digita desaparace
         [Required(ErrorMessage = "Por favor, informe o Nome")]
         [StringLength(30, ErrorMessage = "O nome deve possuir no maximo 30 carcteres FDP")]
-        public string MyProperty { get; set; }
+        public string Name { get; set; }
     }

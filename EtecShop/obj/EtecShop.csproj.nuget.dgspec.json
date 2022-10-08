@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\EtecShop.csproj": {}
+    "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\EtecShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\EtecShop.csproj": {
+    "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\EtecShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\EtecShop.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\EtecShop.csproj",
         "projectName": "EtecShop",
-        "projectPath": "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\EtecShop.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\EtecShop.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",

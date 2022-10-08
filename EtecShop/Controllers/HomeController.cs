@@ -25,7 +25,20 @@ public class HomeController : Controller
         return View(products);
     }
 
-    public IActionResult Privacy()
+    public IActionResult Privacy() // Ação precisa disso pra funcionar
+    {
+        return View();
+    }
+
+    public IActionResult About()
+    {
+        return View();
+    }
+    public IActionResult Products()
+    {
+        return View();
+    }
+    public IActionResult Contact()
     {
         return View();
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZQ5Bek4e5RWtKQj9nAJACAEVQ+JqQzGidESar5venO4dnzaT7+2PAplgmJldCIcA6lOIbdRrAyeKJdRZ0afuQ==",
+  "dgSpecHash": "sbV/vQf5vvYpbcqVXkqgaBRyPPY7Vj5w6LqUOnvq08aExhfkusNfJ10AajLCOU7cXkZ6Zv4UA01utkBufxnenA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etec\\Desktop\\Etecshop\\EtecShop\\EtecShop.csproj",
+  "projectFilePath": "C:\\Users\\etec\\Desktop\\hj\\EtecShop\\EtecShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
